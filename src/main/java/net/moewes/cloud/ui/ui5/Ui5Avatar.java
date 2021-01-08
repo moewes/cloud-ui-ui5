@@ -40,7 +40,6 @@ public class Ui5Avatar extends UiComponent {
 
     @AllArgsConstructor
     @Getter
-
     public enum Shape {
         CIRCLE("Circle"),
         SQUARE("Square");
