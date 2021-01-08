@@ -7,15 +7,29 @@ import net.moewes.cloud.ui.UiComponent;
  */
 public class Ui5Title extends UiComponent {
 
+    /**
+     * default constructor
+     */
     public Ui5Title() {
         super("ui5-title");
     }
 
+    /**
+     * constructor
+     *
+     * @param text text ui5-title displays
+     */
     public Ui5Title(String text) {
         this();
         setText(text);
     }
 
+    /**
+     * constructor
+     *
+     * @param text  text ui5-title displays
+     * @param level the ui5-title level
+     */
     public Ui5Title(String text, Level level) {
         this();
         setText(text);
@@ -23,6 +37,8 @@ public class Ui5Title extends UiComponent {
     }
 
     /**
+     * sets the text which is displayed
+     *
      * @param text text ui5-title displays
      */
     public void setText(String text) {
@@ -30,13 +46,17 @@ public class Ui5Title extends UiComponent {
     }
 
     /**
-     * @param level sets the ui5-title level
+     * sets the level attribute of ui5-title
+     *
+     * @param level the ui5-title level
      */
     public void setLevel(Level level) {
         getElement().setAttribute("level", level.name());
     }
 
     /**
+     * sets the wrap attribute of ui5-title
+     *
      * @param wrap defines whether the ui5-title would wrap.
      */
     public void setWrap(boolean wrap) {

@@ -31,6 +31,8 @@ public class Ui5TimelineItem extends UiComponent {
     }
 
     /**
+     * sets icon attribute of ui5-timeline-item
+     *
      * @param icon icon name - see ui5 icon explorer
      */
     public void setIcon(String icon) {
@@ -38,7 +40,7 @@ public class Ui5TimelineItem extends UiComponent {
     }
 
     /**
-     * additional element
+     * sets the item-name attribute of ui5-timeline-item
      * <p>
      * register event handler for event item-name-click
      *
