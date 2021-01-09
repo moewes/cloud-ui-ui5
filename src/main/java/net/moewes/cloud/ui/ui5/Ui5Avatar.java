@@ -25,6 +25,11 @@ public class Ui5Avatar extends UiComponent {
         getElement().setAttribute("image", imageUrl);
     }
 
+    /**
+     * sets the shape attribute of ui5-avatar
+     *
+     * @param shape shape
+     */
     public void setShape(Shape shape) {
         getElement().setAttribute("shape", shape.getAttribute());
     }
