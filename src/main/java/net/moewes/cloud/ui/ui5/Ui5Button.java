@@ -45,7 +45,7 @@ public class Ui5Button extends UiComponent {
      * @param design design
      */
     public void setDesign(Design design) {
-        getElement().setAttribute("design", design.name());
+        getElement().setAttribute("design", design.getText());
     }
 
     /**

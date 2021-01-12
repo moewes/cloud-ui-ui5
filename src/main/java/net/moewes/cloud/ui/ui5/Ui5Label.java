@@ -39,6 +39,11 @@ public class Ui5Label extends UiComponent {
         setInnerHtml(text);
     }
 
+    /**
+     * sets the for attribute of ui5-label
+     *
+     * @param element component for that this label is for
+     */
     public void setFor(UiComponent element) {
         this.labelForElement = element;
     }
@@ -48,7 +53,7 @@ public class Ui5Label extends UiComponent {
      * <p>
      * hint: consider that the id is dynamically generated for UiComponents. Call this method as late as possible
      *
-     * @param id id of theinput this label is for
+     * @param id id of the input this label is for
      */
     public void setFor(String id) {
         getElement().setAttribute("for", id);
