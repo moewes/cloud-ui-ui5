@@ -1,4 +1,4 @@
-package net.moewes.cloud.ui.ui5;
+package net.moewes.cloudui.ui5;
 
 /**
  * Java wrapper fpr UI5 web component ui5-duration-picker

@@ -1,4 +1,4 @@
-package net.moewes.cloud.ui.ui5;
+package net.moewes.cloudui.ui5;
 
 /**
  * Java wrapper for UI5 web component ui5-textarea

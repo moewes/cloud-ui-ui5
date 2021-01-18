@@ -1,4 +1,4 @@
-package net.moewes.cloud.ui.ui5;
+package net.moewes.cloudui.ui5;
 
 import net.moewes.cloud.ui.UiComponent;
 import net.moewes.cloud.ui.UiElement;
