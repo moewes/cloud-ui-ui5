@@ -51,7 +51,6 @@ public class Ui5Calendar extends UiComponent {
      *
      * @param selection value
      */
-    // TODO JavaDoc
     public void setSelection(CalendarSelection selection) {
         getElement().setAttribute("selection", selection.getAttributeText());
     }
