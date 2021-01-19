@@ -1,7 +1,7 @@
 package net.moewes.cloudui.ui5;
 
-import net.moewes.cloud.ui.UiElement;
-import net.moewes.cloud.ui.html.Div;
+import net.moewes.cloudui.UiElement;
+import net.moewes.cloudui.html.Div;
 
 public abstract class Ui5InputFieldBase extends Ui5InputBase {
     protected boolean required;

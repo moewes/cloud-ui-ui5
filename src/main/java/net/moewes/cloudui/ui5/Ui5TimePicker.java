@@ -3,7 +3,7 @@ package net.moewes.cloudui.ui5;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-import net.moewes.cloud.ui.UiElement;
+import net.moewes.cloudui.UiElement;
 
 /**
  * Java wrapper for UI5 web component ui5-time-picker

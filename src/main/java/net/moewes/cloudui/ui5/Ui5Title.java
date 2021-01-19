@@ -1,6 +1,6 @@
 package net.moewes.cloudui.ui5;
 
-import net.moewes.cloud.ui.UiComponent;
+import net.moewes.cloudui.UiComponent;
 
 /**
  * Java wrapper for UI5 web component ui-title

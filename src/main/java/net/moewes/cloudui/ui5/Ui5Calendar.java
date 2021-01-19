@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import net.moewes.cloud.ui.UiComponent;
+import net.moewes.cloudui.UiComponent;
 
 /**
  * Java wrapper for UI5 web component ui5-calendar

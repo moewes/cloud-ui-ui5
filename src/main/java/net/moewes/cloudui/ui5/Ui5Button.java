@@ -4,7 +4,8 @@ import java.util.function.Consumer;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import net.moewes.cloud.ui.UiComponent;
+import net.moewes.cloudui.UiComponent;
+import net.moewes.cloudui.UiEvent;
 
 /**
  * Java wrapper for UI5 web component ui5-button
@@ -84,7 +85,7 @@ public class Ui5Button extends UiComponent {
      *
      * @param handler handler
      */
-    public void addClickHandler(Consumer<String> handler) {
+    public void addClickHandler(Consumer<UiEvent> handler) {
         super.addEventListener("click", handler);
     }
 

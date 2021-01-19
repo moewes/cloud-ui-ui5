@@ -2,8 +2,8 @@ package net.moewes.cloudui.ui5;
 
 import java.util.Collection;
 
-import net.moewes.cloud.ui.UiComponent;
-import net.moewes.cloud.ui.UiElement;
+import net.moewes.cloudui.UiComponent;
+import net.moewes.cloudui.UiElement;
 
 /**
  * Java wraper UI% web component ui5-combobox

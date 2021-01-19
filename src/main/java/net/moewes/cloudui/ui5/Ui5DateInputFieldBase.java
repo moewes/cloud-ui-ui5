@@ -3,7 +3,7 @@ package net.moewes.cloudui.ui5;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import net.moewes.cloud.ui.UiElement;
+import net.moewes.cloudui.UiElement;
 
 public class Ui5DateInputFieldBase extends Ui5InputFieldBase {
 

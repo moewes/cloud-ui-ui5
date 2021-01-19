@@ -2,8 +2,8 @@ package net.moewes.cloudui.ui5;
 
 import java.util.Arrays;
 
-import net.moewes.cloud.ui.UiComponent;
-import net.moewes.cloud.ui.UiElement;
+import net.moewes.cloudui.UiComponent;
+import net.moewes.cloudui.UiElement;
 
 /**
  * Java wrapper for UI5 web component ui5-card

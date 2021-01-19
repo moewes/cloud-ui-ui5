@@ -2,8 +2,8 @@ package net.moewes.cloudui.ui5;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import net.moewes.cloud.ui.UiComponent;
-import net.moewes.cloud.ui.UiElement;
+import net.moewes.cloudui.UiComponent;
+import net.moewes.cloudui.UiElement;
 
 /**
  * Java wrapper for UI5 web component ui5-carousel
