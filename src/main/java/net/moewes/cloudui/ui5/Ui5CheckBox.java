@@ -14,6 +14,7 @@ public class Ui5CheckBox extends Ui5InputBase {
      */
     public Ui5CheckBox() {
         super("ui5-checkbox");
+        getElement().setHasInput(true);
     }
 
     /**

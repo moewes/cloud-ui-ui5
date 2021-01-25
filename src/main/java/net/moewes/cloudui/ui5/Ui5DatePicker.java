@@ -13,7 +13,7 @@ public class Ui5DatePicker extends Ui5DateInputFieldBase {
      */
     public Ui5DatePicker() {
         super("ui5-date-picker");
-        formatter = DateTimeFormatter.ofPattern("YYYY-MM-DD");
+        formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     }
 
 

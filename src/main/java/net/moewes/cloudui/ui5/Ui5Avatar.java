@@ -5,7 +5,7 @@ import lombok.Getter;
 import net.moewes.cloudui.UiComponent;
 
 /**
- * Java wrapper for ui5 web component avatar
+ * Java wrapper for UI5 web component ui5-avatar
  */
 public class Ui5Avatar extends UiComponent {
 

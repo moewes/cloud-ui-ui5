@@ -1,8 +1,14 @@
 package net.moewes.cloudui.ui5;
 
+import java.util.Arrays;
+import java.util.function.Consumer;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import net.moewes.cloudui.UiComponent;
+import net.moewes.cloudui.UiEvent;
+import net.moewes.cloudui.UiEventAttributeMapping;
+import net.moewes.cloudui.UiEventDefinition;
 
 /**
  * Java wrapper for UI5 web component ui5-avatar-group
@@ -32,6 +38,15 @@ public class Ui5AvatarGroup extends UiComponent {
      */
     public void setAvatarSize(Ui5Avatar.Size avatarSize) {
         getElement().setAttribute("avatar-size", avatarSize.name());
+    }
+
+    @Override
+    public void addEventListener(String event, Consumer<UiEvent> function) {
+        registerEvenrHandler(function,
+                UiEventDefinition.builder().eventName(event)
+                        .attributeMappings(Arrays.asList(
+                                UiEventAttributeMapping.builder().fieldName("targetRef").isHtmlElement(true).build()))
+                        .build());
     }
 
     /**

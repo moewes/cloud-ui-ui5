@@ -6,7 +6,7 @@ import net.moewes.cloudui.UiComponent;
 import net.moewes.cloudui.UiElement;
 
 /**
- * Java wraper UI% web component ui5-combobox
+ * Java wrapper UI5 web component ui5-combobox
  */
 public class Ui5ComboBox extends Ui5InputFieldBase {
 
@@ -43,7 +43,7 @@ public class Ui5ComboBox extends Ui5InputFieldBase {
     }
 
     // ui5-cb-item where? in class or extra
-    public class Ui5ComboBoxItem extends UiComponent {
+    public static class Ui5ComboBoxItem extends UiComponent {
 
         Ui5ComboBoxItem() {
             super("ui5-cb-item");
