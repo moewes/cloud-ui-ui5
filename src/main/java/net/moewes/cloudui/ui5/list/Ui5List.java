@@ -89,10 +89,6 @@ public class Ui5List extends UiComponent {
         add(component);
     }
 
-    // TODO Event Mappings
-    //
-
-
     @Override
     public void addEventListener(String event, Consumer<UiEvent> function) {
 
@@ -109,6 +105,7 @@ public class Ui5List extends UiComponent {
         } else {
             super.addEventListener(event, function);
         }
+        // TODO MultiSelect Event
     }
 
     @Override
