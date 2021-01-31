@@ -26,9 +26,9 @@ public class Ui5ListItem extends UiComponent {
     }
 
     /**
-     * sets an additional discrption
+     * sets an additional description
      *
-     * @param description
+     * @param description additional text
      */
     public void setDescription(String description) {
         getElement().setAttribute("description", description);
@@ -77,7 +77,7 @@ public class Ui5ListItem extends UiComponent {
     /**
      * sets the info-state attribute of ui5-li
      *
-     * @param infoState
+     * @param infoState valid info state
      */
     public void setInfoState(InfoState infoState) {
         getElement().setAttribute("info-state", infoState.getAttributeText());

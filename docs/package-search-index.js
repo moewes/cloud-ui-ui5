@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.moewes.cloudui.ui5"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"net.moewes.cloudui.ui5"},{"l":"net.moewes.cloudui.ui5.list"},{"l":"net.moewes.cloudui.ui5.tabs"}]
