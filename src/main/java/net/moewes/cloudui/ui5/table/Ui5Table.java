@@ -29,7 +29,7 @@ public class Ui5Table<model> extends UiComponent {
 
     private Function<model, String> idGetter;
 
-    private Collection<model> items = new ArrayList<model>();
+    private Collection<model> items = new ArrayList<>();
 
     public Ui5Table() {
         super("ui5-table");
@@ -46,6 +46,7 @@ public class Ui5Table<model> extends UiComponent {
     @Override
     public UiElement render() {
 
+        getElement().setAttribute("mode","SingleSelect");
         columns.forEach(column -> {
             column.getColumnComponent().getElement().setAttribute("slot", "columns");
             add(column.getColumnComponent());
@@ -53,10 +54,9 @@ public class Ui5Table<model> extends UiComponent {
 
         items.forEach(item -> {
             Ui5TableRow row = new Ui5TableRow();
+            row.getElement().setAttribute("type","Active");
             add(row);
-            idGetter().ifPresent(modelStringFunction -> {
-                row.setId(modelStringFunction.apply(item));
-            });
+            idGetter().ifPresent(modelStringFunction -> row.setId(modelStringFunction.apply(item)));
             columns.forEach(column -> {
                 Ui5TableCell cell = new Ui5TableCell();
                 row.add(cell);

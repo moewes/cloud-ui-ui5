@@ -46,7 +46,7 @@ public class Ui5Bar extends UiComponent {
      */
     public void addMiddleContent(UiComponent... components) {
         Arrays.stream(components).forEach(component -> {
-            component.getElement().setAttribute("slot", "middleContent");
+            //component.getElement().setAttribute("slot", "middleContent"); // FIXME
             add(component);
         });
     }
