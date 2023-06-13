@@ -4,8 +4,16 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  maven-github:
+    type: "maven-repository"
+    url: "https://maven.pkg.github.com/moewes"
+    username: "x-access-token"
+    password: ${{ secrets.MY_TOKEN }}
 updates:
-  - package-ecosystem: "maven" # See documentation for possible values
+  - package-ecosystem: "maven"
+    registries:
+      - "maven-github"
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
