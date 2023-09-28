@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.moewes</groupId>
     <artifactId>cloud-ui-ui5</artifactId>
-    <version>0.5.0-SNAPSHOT</version>
+    <version>0.4.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -72,7 +72,7 @@
                 <version>1.20.0</version>
                 <configuration>
                     <pushRemote>true</pushRemote>
-                    <versionDigitToIncrement>1</versionDigitToIncrement>
+                    <versionDigitToIncrement>2</versionDigitToIncrement>
                     <gitFlowConfig>
                         <developmentBranch>master</developmentBranch>
                     </gitFlowConfig>
