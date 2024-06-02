@@ -6,6 +6,8 @@ import net.moewes.cloudui.UiComponent;
 public class Ui5Page extends UiComponent {
 
     public Ui5Page() {
+
         super("ui5-page");
+        getElement().setAttribute("style", "height: 100vh;");
     }
 }
