@@ -59,7 +59,7 @@
         <dependency>
             <groupId>net.moewes</groupId>
             <artifactId>cloudui-core</artifactId>
-            <version>0.5.2</version>
+            <version>0.5.3</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
