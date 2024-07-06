@@ -9,9 +9,9 @@ public enum BreadcrumbsSeparator {
     SLASH("Slash"),
     BACKSLASH("BackSlash"),
     DOUBLEBACKSLASH("DoubleBackSlash"),
-    DOUBLEGRAETERTHEN("DoubleGreaterThen"),
+    DOUBLEGRAETERTHAN("DoubleGreaterThan"),
     DOUBLESLASH("DoubleSlash"),
-    GREATERTHEN("GreaterThen");
+    GREATERTHAN("GreaterThan");
 
     private final String attributeText;
 }
